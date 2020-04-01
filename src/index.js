@@ -1,6 +1,6 @@
 import * as $ from 'jquery'
 import Post from './Post'
-import './styles/styles.css'
+//import './styles/styles.css'
 import Waters from './assets/Water.png'
 import './styles/scss.scss'
 

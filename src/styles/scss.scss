@@ -1,13 +1,24 @@
-$border: 1px solid #ccc;
+// base
+@import "roboto.css";
+@import 'src/components/base/header/header.scss';
+@import 'src/components/base/main/main.scss';
 
-.card {
-    padding: 1rem;
-    border-radius: 5px;
-    margin-top: 1rem;
-    border: $border;
+// blocks
+@import 'src/components/logo/logo.scss';
+@import 'src/components/colors/colors.scss';
+@import 'src/components/type/type.scss';
 
-    h2 {
-        text-align: center;
-        color: rgb(55, 0, 255);
-    }
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.borders {
+  border: dashed 1px green;
 }

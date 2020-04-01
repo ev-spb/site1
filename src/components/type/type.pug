@@ -1,0 +1,29 @@
+.type
+  .type__block.type__block-1.type_left-column H1
+  .type__text-1.type_right-column
+      |This one is the sub-section or
+      br
+      |widget title
+.type
+  .type__block.type__block-2.type_left-column H2
+  .type__text-2.type_right-column
+      |Next one is the item title inside
+      br
+      |widgets
+.type
+  .type__block.type__block-3.type_left-column h3
+  .type__text-3.type_right-column
+      |This is a label or CTA text
+.type
+  .type__block.type__block-4.type_left-column Body
+  .type__text-4.type_right-column
+    |This is the body text which is used for most
+    br
+    |of the design, like paragraphs, lists, etc.
+
+mixin item-type(blockNumber, blockText, textNumber, textText)
+  .type
+    div(class!=attributes.blockNumber).type__block.type_left-column
+      blockText=blockText
+    div(class!=attributes.textNumber).type_right-column
+      textText=textText

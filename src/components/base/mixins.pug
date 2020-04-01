@@ -1,0 +1,15 @@
+//- blocks/colors
+mixin item-colors(color, descr, value)
+  .colors
+    div(class!=attributes.color).colors__squares
+    .colors__text
+      .colors__text_bold=descr
+      span=value
+
+//- blocks/type
+mixin item-type(blockNumber, blockText, textNumber, textText)
+  .type
+    div(class!=attributes.blockNumber).type__block.type_left-column
+      blockText=blockText
+    div(class!=attributes.textNumber).type_right-column
+      textText=textText
