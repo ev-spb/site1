@@ -90,6 +90,7 @@ module.exports = {
 					'css-loader'
 				],
 			},
+			
 			{
 				test: /\.s[ac]ss$/,
 				use: [{
@@ -100,7 +101,21 @@ module.exports = {
 						},
 					},
 					'css-loader',
-					'sass-loader'
+					{
+						loader: 'resolve-url-loader',
+						options:{
+						  engine:'rework',
+						}
+					  },
+					  {
+						loader:'sass-loader',
+						options: {
+						  sourceMap: true,
+						  sassOptions: {
+						  }
+						}
+					  },
+						
 				],
 			},
 			{
