@@ -8,18 +8,18 @@ block variables
 block content
   .content-wrapper_two-columns
     .colors_wrapper
-      +item-colors(colors__squares_shade100,'Dark Shade 100%', '#1F2041')(color!='colors__squares_shade100')
-      +item-colors(colors__squares_shade100,'Dark Shade 75%', '#1F2041')(color!='colors__squares_shade75')
-      +item-colors(colors__squares_shade100,'Dark Shade 50%', '#1F2041')(color!='colors__squares_shade50')
-      +item-colors(colors__squares_shade100,'Dark Shade 25%', '#1F2041')(color!='colors__squares_shade25')
-      +item-colors(colors__squares_shade100,'Dark Shade 5%', '#1F2041')(color!='colors__squares_shade5')
-      +item-colors(colors__squares_shade100,'Purple', '#BC9CFF')(color!='colors__squares_purple')
-      +item-colors(colors__squares_shade100,'Green', '#6FCF97')(color!='colors__squares_green')
+      +item-colors('colors__squares_shade100','Dark Shade 100%', '#1F2041')
+      +item-colors('colors__squares_shade75','Dark Shade 75%', '#1F2041')
+      +item-colors('colors__squares_shade50','Dark Shade 50%', '#1F2041')
+      +item-colors('colors__squares_shade25','Dark Shade 25%', '#1F2041')
+      +item-colors('colors__squares_shade5','Dark Shade 5%', '#1F2041')
+      +item-colors('colors__squares_purple','Purple', '#BC9CFF')
+      +item-colors('colors__squares_green','Green', '#6FCF97')
 
     .type-wrapper
-      +item-type(blockNumber, 'H1', textNumber, 'This one is the sub-section or widget title')(blockNumber!='type__block-1')(textNumber!='type__text-1')
-      +item-type(blockNumber, 'H2', textNumber, 'Next one is the item title inside widgets')(blockNumber!='type__block-2')(textNumber!='type__text-2')
-      +item-type(blockNumber, 'H3', textNumber, 'This is a label or CTA text')(blockNumber!='type__block-3')(textNumber!='type__text-3')
-      +item-type(blockNumber, 'Body', textNumber, 'This is the body text which is used for most of the design, like paragraphs, lists, etc.')(blockNumber!='type__block-4')(textNumber!='type__text-4')
+      +item-type('type__block-1', 'H1', 'type__text-1', 'This one is the sub-section or widget title')
+      +item-type('type__block-2', 'H2', 'type__text-2', 'Next one is the item title inside widgets')
+      +item-type('type__block-3', 'H3', 'type__text-3', 'This is a label or CTA text')
+      +item-type('type__block-4', 'Body', 'type__text-4', 'This is the body text which is used for most of the design, like paragraphs, lists, etc.')
 
 //- include blocks/type/type

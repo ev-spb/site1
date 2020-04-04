@@ -70,7 +70,7 @@ module.exports = {
 		})),
 		new CleanWebpackPlugin(),
 		new CopyWebpackPlugin([{
-			from: path.resolve(__dirname, 'src/Group.svg'),
+			from: path.resolve(__dirname, 'src/'),
 			to: PATHS.dist
 		}]),
 		new MiniCssExtractPlugin({

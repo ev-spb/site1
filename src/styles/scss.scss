@@ -1,5 +1,5 @@
 // base
-@import "roboto.css";
+@import 'src/assets/fonts/fonts.scss';
 @import 'src/components/base/header/header.scss';
 @import 'src/components/base/main/main.scss';
 
@@ -7,6 +7,8 @@
 @import 'src/components/logo/logo.scss';
 @import 'src/components/colors/colors.scss';
 @import 'src/components/type/type.scss';
+@import 'src/components/navigation/nav.scss';
+@import 'src/components/nav-bar/nav-bar.scss';
 
 html {
   margin: 0;

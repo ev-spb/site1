@@ -1,0 +1,42 @@
+// Quicksand
+@font-face {
+	font-family: 'Quicksand';
+	src:
+		url('src/assets/fonts/Quicksand/Quicksand-Regular.woff') format('woff'),
+		url('src/assets/fonts/Quicksand/Quicksand-Regular.ttf') format('truetype'),
+		url('src/assets/fonts/Quicksand/Quicksand-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Quicksand';
+	src:
+		url('src/assets/fonts/Quicksand/Quicksand-Bold.woff') format('woff'),
+		url('src/assets/fonts/Quicksand/Quicksand-Bold.ttf') format('truetype'),
+		url('src/assets/fonts/Quicksand/Quicksand-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+// Montserrat
+@font-face {
+	font-family: 'Montserrat';
+	src:
+	 	url('src/assets/fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+	 	url('src/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+		url('src/assets/fonts/Montserrat/Montserrat-Regular.svg') format('svg')		;
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src:
+	 	url('src/assets/fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+	 	url('src/assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'),
+		url('src/assets/fonts/Montserrat/Montserrat-Bold.svg') format('svg')		;
+	font-weight: bold;
+	font-style: normal;
+}
+
+// @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic-ext');
