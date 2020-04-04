@@ -1,0 +1,44 @@
+.navigation * {
+  margin: 0;
+  padding: 0;
+  }
+.navigation  {
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+   list-style: none;
+    border: dashed 1px red;
+    width: 527px;
+    height: 20px;
+  }
+  img {
+      display: inline-block;
+    }
+  li {
+    position: relative;
+  }
+  a.active {
+    font-weight: bold;
+    color: rgba(31, 32, 65, 0.75);
+  }
+  a { 
+    height: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    text-decoration: none;
+    letter-spacing: 0.07em;
+  a.navigation__link-active {
+      font-weight: bold;
+      color: rgba(31, 32, 65, 0.75);
+    }
+  }
+}
+.logo-toxin{
+  position: relative;
+left: 140px;
+bottom: -10px;}

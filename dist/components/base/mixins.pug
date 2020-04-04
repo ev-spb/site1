@@ -1,0 +1,30 @@
+//- blocks/colors
+mixin item-colors(color, descr, value)
+  .colors
+    div(class=color).colors__squares
+    .colors__text
+      .colors__text_bold=descr
+      span=value
+
+//- blocks/type
+mixin item-type(blockNumber, blockText, textNumber, textText)
+  .type
+    div(class=blockNumber).type__block.type_left-column
+      blockText=blockText
+    div(class=textNumber).type_right-column
+      textText=textText
+
+mixin menu(first, second, third, fourth, fifth, sixth)
+  li.navig
+    a.navig__link.active(href='link.html')= first
+  li.navig
+    a(href='link.html')= second
+  li.navig
+    a.navig__link-active(href='link.html')= third
+    img(src="assets/expand_more.jpg" alt="стрелка - указатель")
+  li.navig
+    a.navig__link-active(href='link.html')= fourth
+  li.navig
+    a.navig__link-active(href='link.html')= fifth
+  li.navig
+    a.navig__link-active(href='link.html')= sixth

@@ -1,0 +1,19 @@
+//- через variables будем получать константы от тех,
+//- кто будет использовать этот макет
+block variables
+//- подключим файл с миксинами
+include ../mixins.pug
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title #{title}
+    link(rel="shortcut icon" href="./Group.svg")
+  body
+    header
+      include ../header/header
+      block content
+      
+    
+    
