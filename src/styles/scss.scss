@@ -1,14 +1,14 @@
 // base
-@import 'src/assets/fonts/fonts.scss';
-@import 'src/components/base/header/header.scss';
-@import 'src/components/base/main/main.scss';
+@import 'assets/fonts/fonts.scss';
+@import 'components/base/header/header.scss';
+@import 'components/base/main/main.scss';
 
 // blocks
-@import 'src/components/logo/logo.scss';
-@import 'src/components/colors/colors.scss';
-@import 'src/components/type/type.scss';
-@import 'src/components/navigation/nav.scss';
-@import 'src/components/nav-bar/nav-bar.scss';
+@import 'components/logo/logo.scss';
+@import 'components/colors/colors.scss';
+@import 'components/type/type.scss';
+@import 'components/navigation/nav.scss';
+@import 'components/nav-bar/nav-bar.scss';
 
 html {
   margin: 0;
